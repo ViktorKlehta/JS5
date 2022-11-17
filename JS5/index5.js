@@ -16,6 +16,7 @@ function PopUpShow(){
 
 function openForm() {
     document.getElementById("popup1").style.display="block";
+    history.pushState(null, 'page 2', 'bar.html');
 }
 
 
